@@ -1,0 +1,484 @@
+body, html {
+  height: 100%;
+}
+
+
+@media (max-width: 992px) {
+  .mobileMenu {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    height: 100%;
+    -webkit-transition: all ease 0.25s;
+    transition: all ease 0.25s;
+    font-size: x-large;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 50%;
+    font-family: 'Bungee Inline';
+    background-color: rgb(0, 0, 0);
+  }
+  .mobileMenu.open {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+  }
+  .mobileMenu .navbar-nav {
+    overflow-y: auto;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  .overlay.open {
+    display: block;
+    z-index: 1029;
+  }
+}
+@media (min-width: 992px) {
+  #navbarSupportedContent .nav-item{
+  color: rgb(228, 234, 235);
+  font-family: 'Patua One';
+  margin: 0px 10px 10px 90px;
+  padding: 0px auto;
+  font-size: 20px;
+  
+  }
+  
+}
+#navbar-contact .nav-item{
+  margin: 0px 10px 10px 90px;
+}
+#navbar-contact{
+  background-color: rgb(0, 0, 0);
+  color: rgb(228, 234, 235);
+  font-family: 'Patua One';
+ 
+  font-size: 20px;
+}
+
+@media (max-width: 992px) {
+  #logo {
+    padding-top: 0px;
+   font-family: 'Tangerine', 'serif';
+    font-size: 35px;
+    text-shadow: 4px 4px 4px #aaa;
+  }
+}
+@media (min-width: 992px) {
+#logo {
+  padding-top: 0px;
+ font-family: 'Tangerine', 'serif';
+  font-size: 52px;
+  text-shadow: 4px 4px 4px #aaa;
+}}
+
+#carouselExampleIndicators
+{
+  padding-top: 10px;
+}
+#card
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+ background-color: aqua;
+ box-shadow: 4px 4px 4px 4px #aaa;
+  text-align: center;
+/* padding-top: 20px;
+  padding-left:20px ;
+  margin-left: 20px;
+  margin-top: 50px;
+  box-shadow: 4px 4px 4px 4px #aaa;
+  padding-bottom: 10px;
+  margin-bottom: 50px;*/
+  
+}
+#card_about{
+  margin-top: 20px;
+  margin-bottom: 20px;
+ background-color: #000000;
+ 
+  text-align: center;
+
+}
+/*skills progress bar*/
+/*About look*/
+#about-look{
+  background-color: #b4b4b4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+#about-look h3{
+  text-align: center;
+  font-size: xx-large;
+}
+#about-look a{
+  margin-right: 50px;
+  background-color: azure;
+  font-size: 15px;
+  font-weight: 500;
+}
+/*About look*/
+
+/*Middle About*/
+#middle-about{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#middle-about h5{
+  word-spacing: 20px;
+  font-size: 30px;
+  color: #666666;
+  text-align: center;
+}
+
+/*Middle About*/
+
+#card_about h6{
+  text-align: left;
+  color: #ffffff;
+}
+#card_about h5{
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+}
+#about-skills .gg{
+  background-image: url(../Public/ss.png);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+#about-skills{
+  background-color: #000000;
+}
+/*skills progress bar*/
+#card .card-title{
+text-align: center;
+font-family: 'Patua One';
+color: rgb(255, 255, 255);
+
+
+}
+#space h3{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+}
+#space img{
+  box-shadow: 4px 4px 4px 4px #aaa;
+  padding-top: 20px;
+  margin-top: 0px;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+#woo{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  padding-right: 100px;
+  background-color:rgb(209, 209, 209);
+  box-shadow: 4px 4px 4px 4px #aaa;
+}
+#woo h5{
+padding-left: 110px;
+text-align: center;
+
+}
+#woo p{
+  padding-left: 150px;
+}
+#woo i{
+
+  padding-top: 20px;
+  padding-left: 80px;
+}
+.parallax {
+  /* The image used */
+  background-image: url(../Public/1.png);
+
+  /* Set a specific height */
+  min-height: 50px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#back{
+  padding-top: 50px;
+  background-image: url(../Public/ll.png);
+  width: 100%;
+ /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 4px 4px 4px 4px #aaa;
+  
+}
+#back-contact{
+  
+  padding-top: 800px;
+  background-image: url(../Public/contact.jpg);
+  width: 100%;
+ /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#backs{
+ 
+  background-image: url(../Public/ab.png);
+  width: 100%;
+  height: 100%;
+ /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+   /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  margin-bottom: 20px;
+  
+  box-shadow: 4px 4px 4px 4px #aaa;
+}
+
+#cards{
+  margin-top: 50px;
+  box-shadow: 4px 4px 4px 4px rgb(255, 255, 255)bbb;
+  text-align: center;
+  font-weight: lighter;
+  background-color: #000000;
+  
+}
+#cards .card-title{
+  
+  font-size: 25px;
+  color: #ffffff;
+}
+#cards .card-text{
+  
+  color: #a5a5a5;
+}
+#cards h6{
+  
+  color:#aaa;
+}
+
+/*card*/
+#bor{
+  padding-right: 0px;
+  padding-left:20px ;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+#bor .card{
+  border: none;
+}
+#bor .card-title{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Patua One';
+}
+#bor .card-text{
+  text-align: left;
+}
+/*card finished*/
+#look{
+  background-color: #aaa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#look h3{
+  text-align: center;
+}
+#look p{
+  text-align: center;
+}
+/*Footer start*/
+#footer{
+ margin-bottom: 0;
+  padding-top: 20px;
+  padding: 0 0 0px 0;
+  color: #ffffff;
+}
+#footer .footer-top{
+  padding-top: 20px;
+  background-color: #141414;
+}
+#footer .footer-top .footer-links ul a {
+  color: #ecf5ff;
+}
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+#Copy{
+  text-align: center;
+  background-color: #000000;
+  padding-bottom: 20px;
+ 
+}
+#footer .credits  a {
+  color: #ecf5ff;
+}
+
+
+/*footer*/
+/*@media only screen and  (min-width: 280px) and (max-width: 767px)  {
+  #navbarSupportedContent .nav-item
+  {
+    
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px 00px 0px 0px;
+    padding: 0px auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+      
+  }}
+  @media only screen and  (min-width: 768px) and (max-width: 1024px) {
+    #navbarSupportedContent .nav-item
+    {
+      
+      color: rgb(0, 0, 0);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin: 10px 00px 0px 0px;
+      padding: 0px auto;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+        
+    }}
+   
+  @media only screen and (min-width: 769px) {
+    #navbarSupportedContent .nav-item{
+      color: rgb(228, 234, 235);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-right: 50px;
+      margin: 0px 100px 0px 50px;
+      padding: 0px auto;
+      font-size: 20px;
+      text-transform: capitalize;
+      font-weight: normal;
+      
+    }
+    }
+   /*
+    @media only screen and (min-width: 1024px) {
+      #navbarSupportedContent .nav-item{
+        color: rgb(228, 234, 235);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 50px;
+        margin: 0px 100px 0px 50px;
+        padding: 0px auto;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: normal;
+        
+      }
+    }
+    
+    @media only screen and (min-width: 768px) and (max-width: 1023px){
+      #navbarSupportedContent .nav-item{
+        color: rgb(228, 234, 235);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-left: 50px;
+        margin: 0px 100px 0px 50px;
+        padding: 0px auto;
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: normal;
+        
+      }
+    }
+    
+    @media only screen and (min-width: 480px) and (max-width: 767px){
+      #navbarSupportedContent .nav-item
+    {
+      
+      color: rgb(0, 0, 0);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin: 10px 00px 0px 0px;
+      padding: 0px auto;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+        
+    }
+    }
+    
+    @media only screen and (min-width: 0px) and (max-width: 479px){
+      #navbarSupportedContent .nav-item
+    {
+      
+      color: rgb(0, 0, 0);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin: 10px 00px 0px 0px;
+      padding: 0px auto;
+      font-size: 20px;
+      text-transform: uppercase;
+      font-weight: bold;
+        
+    }
+    }
+@media (max-width: 768px) {
+  .navbar-collapse {
+    display:block;
+      position: fixed;
+      top: 0px;
+      left: 0;
+      padding-left: 15px;
+      padding-left: 15px;
+      padding-bottom: 15px;
+      width: 50%;
+      height: 100%;
+      background-color: rgb(1, 78, 72);
+      
+  }
+
+  .navbar-collapse.collapsing {
+      left: -50%;
+      transition: height 0s ease;
+  }
+
+  .navbar-collapse.show {
+      left: 0;
+      transition: left 300ms ease-in-out;
+  }
+
+  .navbar-toggler.collapsed ~ .navbar-collapse {
+      transition: left 500ms ease-in-out;
+  }
+}*/
+
+
+
+
+

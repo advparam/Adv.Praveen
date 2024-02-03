@@ -1,0 +1,187 @@
+body, html {
+    height: 100%;
+  }
+  
+  
+  @media (max-width: 992px) {
+    .mobileMenu {
+      -webkit-transform: translateX(-100%);
+              transform: translateX(-100%);
+      position: fixed;
+      bottom: 0;
+      margin: auto;
+      left: 0;
+      height: 100%;
+      -webkit-transition: all ease 0.25s;
+      transition: all ease 0.25s;
+      font-size: x-large;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      width: 50%;
+      font-family: 'Bungee Inline';
+      background-color: rgb(0, 0, 0);
+    }
+    .mobileMenu.open {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+    }
+    .mobileMenu .navbar-nav {
+      overflow-y: auto;
+    }
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+      display: none;
+    }
+    .overlay.open {
+      display: block;
+      z-index: 1029;
+    }
+  }
+
+  @media (min-width: 992px) {
+    #navbarSupportedContent .nav-item{
+    color: rgb(228, 234, 235);
+    font-family: 'Patua One';
+    margin: 0px 10px 10px 90px;
+    padding: 0px auto;
+    font-size: 20px;
+    
+    }
+    
+  }
+  @media (min-width: 992px) {
+  #navbar-contract .nav-item{
+    margin: 0px 10px 10px 90px;
+  }}
+  #navbar-contract{
+    background-color: rgb(0, 0, 0);
+    color: rgb(228, 234, 235);
+    font-family: 'Patua One';
+   
+    font-size: 20px;
+  }
+  
+  @media (max-width: 992px) {
+    #logo {
+      padding-top: 0px;
+     font-family: 'Tangerine', 'serif';
+      font-size: 35px;
+      text-shadow: 4px 4px 4px #aaa;
+    }
+  }
+  @media (min-width: 992px) {
+  #logo {
+    padding-top: 0px;
+   font-family: 'Tangerine', 'serif';
+    font-size: 52px;
+    text-shadow: 4px 4px 4px #aaa;
+  }}
+
+  
+  #back-contact{
+  
+    padding-top: 100px;
+    background-image: url(../Public/p2.jpg);
+    width: 100%;
+   /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   
+  }
+  
+  
+  #contact-c h1{
+      padding-top: 200px;
+      font-size: 80px;
+      word-spacing: 10px;
+      text-align: center;
+      color: cornsilk;
+      font-family: 'Tangerine','serif';
+      font-weight: bold;
+  }
+  
+
+ 
+
+
+/*Footer start*/
+#footer{
+    margin-bottom: 0;
+     padding-top: 20px;
+     padding: 0 0 0px 0;
+     color: #ffffff;
+   }
+   #footer .footer-top{
+     padding-top: 20px;
+     background-color: #141414;
+   }
+   #footer .footer-top .footer-links ul a {
+     color: #ecf5ff;
+   }
+   #footer .copyright {
+     text-align: center;
+     padding-top: 30px;
+   }
+   #Copy{
+     text-align: center;
+     background-color: #000000;
+     padding-bottom: 20px;
+    
+   }
+   #footer .credits  a {
+     color: #ecf5ff;
+   }
+
+   /*Locaton Information*/
+
+#location{
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+
+#location h5{
+    padding-left: 20px;
+margin-top: 10px;
+font-size: 40px;
+font-weight: bold;
+color: #1f1f1f;
+font-family: 'Lato';
+
+}
+#map{
+    
+    margin-bottom: 50px;
+}
+
+#sec{
+    padding-left: 10px;
+}
+   /*Locaton Information*/
+
+   .parallax {
+    /* The image used */
+    background-image: url(../Public/1.png);
+  
+    /* Set a specific height */
+    min-height: 50px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
